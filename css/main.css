@@ -92,24 +92,55 @@ html {
 	background-color: hsl(212, 45%, 89%);
 }
 
-.card {
-	background-color: hsl(0, 0%, 100%);
-}
-
 h1 {
 	color: hsl(218, 44%, 22%);
+	font-size: 1.7rem;
 }
 
-.gray {
+h2 {
 	color: hsl(220, 15%, 55%);
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 900px;
+	margin: 1.5rem;
+}
+
+.card {
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 20px;
+	height: auto;
+	width: 335px;
+	padding: 16px;
+}
+
+.card h1,
+.card h2 {
+	text-align: center;
+	overflow-wrap: normal;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.card img {
+	max-width: 100%;
+	flex: 1;
+	border-radius: 14px;
 }
 
 .attribution {
-	font-size: 11px; text-align: center;
+	font-size: 0.7rem; text-align: center;
+	display: none;
 }
 
 .attribution a {
 	color: hsl(228, 45%, 44%);
+	display: none;
 }
 
 /* ==========================================================================
