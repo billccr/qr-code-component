@@ -94,21 +94,21 @@ html {
 
 h1 {
 	color: hsl(218, 44%, 22%);
-	font-size: 1.7rem;
+	font-size: 1.6rem;
 }
 
 h2 {
 	color: hsl(220, 15%, 55%);
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	font-weight: 400;
 }
 
-.container {
+#container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 900px;
-	margin: 1.5rem;
+	min-height: 100vh;
+	margin: 0rem 1.5rem;
 }
 
 .card {
@@ -116,7 +116,13 @@ h2 {
 	border-radius: 20px;
 	height: auto;
 	width: 335px;
-	padding: 16px;
+	padding: 1rem;
+	box-shadow: 0rem 1.5rem 2rem rgba(0, 0, 0, 0.11);
+}
+
+.card img {
+	max-width: 100%;
+	border-radius: 15px;
 }
 
 .card h1,
@@ -125,12 +131,6 @@ h2 {
 	overflow-wrap: normal;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
-}
-
-.card img {
-	max-width: 100%;
-	flex: 1;
-	border-radius: 14px;
 }
 
 .attribution {
